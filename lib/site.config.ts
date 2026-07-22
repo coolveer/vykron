@@ -1,0 +1,81 @@
+export const siteConfig = {
+  name: "Vykron Technologies",
+  shortName: "Vykron",
+  legalName: "Vykron Technologies",
+  url: "https://www.vykron.com",
+  positioning:
+    "We build intelligent software products end to end. AI, SaaS, and Web3, from architecture to launch, with the discipline of a team that has actually shipped.",
+  description:
+    "Vykron Technologies is a product engineering company. We design, build, and launch AI, SaaS, and Web3 products for startups that cannot afford a rewrite in six months.",
+  email: "hello@vykron.com",
+  responseTime: "12 hours",
+  bookingStatus: "Booking Q3 projects",
+  address: {
+    line1: "947 E Winding Creek Dr., Suite 100",
+    line2: "Eagle, Idaho 83616",
+    city: "Eagle",
+    state: "ID",
+    postalCode: "83616",
+    country: "US",
+    countryName: "United States",
+  },
+  socials: {
+    linkedin: "https://www.linkedin.com/company/vykron-technologies",
+    x: "https://x.com/vykrontech",
+  },
+  founded: "2018",
+  stats: [
+    {
+      index: "01",
+      value: 8,
+      suffix: "+",
+      label: "Years shipping",
+      qualifier: "Combined production experience across the team.",
+    },
+    {
+      index: "02",
+      value: 200,
+      suffix: "+",
+      label: "AI solutions judged",
+      qualifier: "By our engineers at Google's GenAI Hackathon.",
+    },
+    {
+      index: "03",
+      value: 3,
+      suffix: "",
+      label: "Industries deep",
+      qualifier: "AI, SaaS, and Web3, not a generalist shop.",
+    },
+    {
+      index: "04",
+      value: 12,
+      suffix: "hr",
+      label: "Average response",
+      qualifier: "From brief received to first reply.",
+    },
+  ],
+  techStack: [
+    "React",
+    "Next.js",
+    "Node.js",
+    "NestJS",
+    "TypeScript",
+    "OpenAI",
+    "Anthropic",
+    "Amazon Bedrock",
+    "Solidity",
+    "PostgreSQL",
+    "MongoDB",
+    "Kafka",
+    "gRPC",
+    "AWS",
+  ],
+  nav: [
+    { label: "Services", href: "/services" },
+    { label: "Work", href: "/work" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
+  ],
+} as const;
+
+export type SiteConfig = typeof siteConfig;
