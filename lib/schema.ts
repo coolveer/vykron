@@ -16,7 +16,7 @@ export function buildOrganizationSchema() {
       postalCode: siteConfig.address.postalCode,
       addressCountry: siteConfig.address.country,
     },
-    sameAs: [siteConfig.socials.linkedin, siteConfig.socials.x],
+    sameAs: [siteConfig.socials.linkedin],
   };
 }
 

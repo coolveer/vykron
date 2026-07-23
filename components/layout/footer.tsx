@@ -81,15 +81,6 @@ export function Footer() {
               >
                 in
               </a>
-              <a
-                href={siteConfig.socials.x}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Vykron Technologies on X"
-                className="flex size-9 items-center justify-center rounded-sm border border-paper/20 font-mono text-mono-xs text-paper/60 transition-colors hover:border-paper/50 hover:text-paper"
-              >
-                X
-              </a>
             </div>
           </div>
         </div>

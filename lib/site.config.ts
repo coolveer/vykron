@@ -21,7 +21,6 @@ export const siteConfig = {
   },
   socials: {
     linkedin: "https://www.linkedin.com/company/vykron-technologies",
-    x: "https://x.com/vykrontech",
   },
   founded: "2018",
   stats: [
